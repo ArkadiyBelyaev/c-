@@ -38,19 +38,15 @@
 // {
 // 	Console.WriteLine($"No, {num1 % num2}");
 // }
-Console.WriteLine("Введите число");
-int num = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine("Введите число");
+// int num = Convert.ToInt32(Console.ReadLine());
 
-if (num >= 100)
-{
-	int result = num / 100 % 10;
-	// while (num >= 1000)
-	// {
-	// 	num = num / 10;
-	// }
-	Console.WriteLine(result);
-}
-else
-{
-	Console.WriteLine("Третьей цифры нет");
-}
+// if (num >= 100)
+// {
+// 	int result = num / 100 % 10;
+// 	Console.WriteLine(result);
+// }
+// else
+// {
+// 	Console.WriteLine("Третьей цифры нет");
+// }
