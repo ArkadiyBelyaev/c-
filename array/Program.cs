@@ -50,18 +50,19 @@
 // 		Console.Write($"{arr[i]} ");
 // 	}
 // }
-int[] arr = { 1, 13, 14, 5, 3, 6, 19 };
-int max = arr[0];
-for (int i = 0; i < arr.Length; i++)
-{
-	if (arr[i] > max)
-	{
-		max = arr[i];
-	}
-}
-Console.WriteLine(max);
-foreach (int e in arr)
-{
-	max = e;
-}
-Console.WriteLine(max);
+// int[] arr = { 1, 13, 14, 5, 3, 6, 19 };
+// int max = arr[0];
+// for (int i = 0; i < arr.Length; i++)
+// {
+// 	if (arr[i] > max)
+// 	{
+// 		max = arr[i];
+// 	}
+// }
+// Console.WriteLine(max);
+// foreach (int e in arr)
+// {
+// 	max = e;
+// }
+// Console.WriteLine(max);
+Console.WriteLine(Math.Round(56.42, 1));
