@@ -65,4 +65,26 @@
 // 	max = e;
 // }
 // Console.WriteLine(max);
-Console.WriteLine(Math.Round(56.42, 1));
+// int[] array = new int[7];
+// for (int i = 0; i < array.Length; i++)
+// {
+// 	array[i] = new Random().Next(0, 10);
+// 	Console.WriteLine(array[i]);
+// }
+int[] array = new int[5];
+Console.WriteLine("Введите число");
+int num = Convert.ToInt32(Console.ReadLine());
+
+string find = "No";
+
+for (int i = 0; i < array.Length; i++)
+{
+	array[i] = new Random().Next(0, 11);
+	Console.Write($"{array[i]} ");
+
+	if (num == array[i])
+	{
+		find = "Yes";
+	}
+}
+Console.WriteLine(find);
